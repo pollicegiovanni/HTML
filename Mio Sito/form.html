@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            font-family: sans-serif;
+            border: 1px solid black;
+            width: 50%;
+            padding: 1%;
+            border-radius: 10px;
+            background-color: aquamarine;
+            margin-left: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="destinazioneDati">
+        <label>Username</label>
+        <input type="text" placeholder="Es: Giov@nni93">
+        <label>Password</label>
+        <input type="password" placeholder="Es: **********"><br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Es: gio@gmail.com"><br><br>
+        <label>Nome</label>
+        <input type="text" placeholder="Es: Giovanni">
+        <label style="margin-left: 1%;">Cognome</label>
+        <input type="text" placeholder="Es: Rossi"><br><br>
+        <label>Data Nascita</label>
+        <input type="date"><br><br>
+        <select>
+            <option>--GENERE--</option>
+            <option value="altro">Altro</option>
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+        <label>Animali Domestici</label><br>
+        <label>Cane</label>
+        <input type="checkbox" name="cane" value="cane">
+        <label>Gatto</label>
+        <input type="checkbox" name="gatto" value="gatto">
+        <label>Pitone</label>
+        <input type="checkbox" name="pitone" value="pitone">
+        <label>Tartaruga</label>
+        <input type="checkbox" name="tartaruga" value="tartaruga"><br><br>
+        <label>Titolo di Studio</label><br>
+        <label>Diploma</label>
+        <input type="radio" name="titolo" value="diploma" checked>
+        <label>Laurea</label>
+        <input type="radio" name="titolo" value="laurea">
+        <label>Master</label>
+        <input type="radio" name="titolo" value="master">
+
+        <hr style="width: 50%; margin-left: 0;">
+        <textarea placeholder="Parlaci di te" style="width: 300px; height: 80px;"></textarea>
+        <br><br>
+        <button type="submit">Registrati</button>
+    </form>
+</body>
+
+</html>
