@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+ul{
+    background-color: burlywood;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+li{
+    display: inline;
+    margin-left: 2%;
+}
+li a{
+    text-decoration: none; /* Eliminiamo la sottolineatura dai link*/
+    color: black;
+}
+div{
+    background-color: orange;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+p{
+    background-color: blue;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
