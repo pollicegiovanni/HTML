@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin-right: 20px;
+        }
+        .Registrati{
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        button{
+           position: flex;
+           justify-content: space;
+           gap: 9vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h4 style="font-size: 30px; text-align: center;"> Registrati </h4>
+    <div class="Registrati" style="background-color: bisque; margin: 20%; margin-top: 0%;">
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name=nome" placeholder="Nome:">
+            <label for="cognome">Cognome:</label>
+            <input type="text" name="cognome" placeholder="Cognome:">
+            <br><br>
+            <label for="dataNascita">Data Nascita:</label>
+            <input type="date" name="dataNascita">
+            <label for="luogoNascita">Luogo Nascita:</label>
+            <input type="text" name="luogoNascita">
+            <br><br>
+            <label for="codFiscale">Codice Fiscale:</label>
+            <input type="text" name="codFiscale">
+            <br><br>
+            <label for="indirizzo">Indirizzo:</label>
+            <input type="text" name="indirizzo">
+            <label for="citta">Città:</label>
+            <input type="text" name="citta">
+            <br><br>
+            <button type="submit">Registrati</button>
+            <button type="reset">Cancella</button>
+        </form>
+    </div>
+</body>
+
+</html>
